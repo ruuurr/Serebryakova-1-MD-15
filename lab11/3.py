@@ -1,5 +1,5 @@
 class Restaurant:
-    def init(self, name, cuisine_type, rating):
+    def __init__(self, name, cuisine_type, rating):
         self.name = name
         self.cuisine_type = cuisine_type
         self.rating = rating
